@@ -29,8 +29,8 @@ body {
 }
 
 body {
-    font-family: 'AvenirNextCondensed-Regular';
-    font-size: 17px;
+    font-family: 'montserratlight';
+    font-size: 13px;
     letter-spacing: 1px;
     line-height: 24px;
 }
@@ -326,14 +326,14 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: "Oswald-Regular";
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .section_title_white h2 {
     color: #fff;
-    font-family: "Oswald-Regular";
-    font-size: 35px;
-    letter-spacing: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
     padding-bottom: 30px;
     position: relative;
 }
@@ -345,10 +345,10 @@ h6 {
 
 .section_title_black h2 {
     color: #2c3e50 !important;
-    font-family: "Oswald-Regular";
-    font-size: 35px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
     font-weight: 500;
-    letter-spacing: 20px;
+    letter-spacing: 2px;
     padding-bottom: 30px;
     position: relative;
 }
@@ -363,7 +363,7 @@ h6 {
 .section_title_white h2:before {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    /*border-top: 10px solid #0085d5;*/
+    border-top: 10px solid #0085d5;
     bottom: 0;
     content: "";
     height: 0;
@@ -379,13 +379,14 @@ h6 {
 
 .section_title_black h2:after,
 .section_title_white h2:after {
-    background-color: rgba(0,0,0,0.4);
-    content: '';
-    height: 2px;
-    width: 90px;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    bottom: 5px;
+    content: "";
+    height: 3px;
+    left: calc(50% - 35px);
     position: absolute;
-    left: calc(50% - 45px);
-    bottom: 8px;
+    width: 70px;
 }
 
 .section_title_white h2:after {
